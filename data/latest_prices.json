@@ -1,0 +1,61 @@
+{
+  "schema_version": "0.1",
+  "generated_at_kst": "2026-07-03T11:14:42+09:00",
+  "source": "kis",
+  "summary": {
+    "total": 4,
+    "ok": 0,
+    "error": 4
+  },
+  "prices": [
+    {
+      "symbol": "316140",
+      "kis_symbol": "316140",
+      "market": "KR",
+      "name": "우리금융지주",
+      "price": null,
+      "currency": "KRW",
+      "asof_kst": "2026-07-03T11:14:40+09:00",
+      "status": "error",
+      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-price?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=316140",
+      "provider": "kis"
+    },
+    {
+      "symbol": "086790",
+      "kis_symbol": "086790",
+      "market": "KR",
+      "name": "하나금융지주",
+      "price": null,
+      "currency": "KRW",
+      "asof_kst": "2026-07-03T11:14:41+09:00",
+      "status": "error",
+      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-price?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=086790",
+      "provider": "kis"
+    },
+    {
+      "symbol": "005385",
+      "kis_symbol": "005385",
+      "market": "KR",
+      "name": "현대차우",
+      "price": null,
+      "currency": "KRW",
+      "asof_kst": "2026-07-03T11:14:41+09:00",
+      "status": "error",
+      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapi.koreainvestment.com:9443/uapi/domestic-stock/v1/quotations/inquire-price?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=005385",
+      "provider": "kis"
+    },
+    {
+      "symbol": "SOXL",
+      "kis_symbol": "SOXL",
+      "market": "US",
+      "name": "Direxion Daily Semiconductor Bull 3X Shares",
+      "price": null,
+      "currency": "USD",
+      "asof_kst": "2026-07-03T11:14:42+09:00",
+      "status": "error",
+      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapi.koreainvestment.com:9443/uapi/overseas-price/v1/quotations/price?AUTH=&EXCD=AMS&SYMB=SOXL",
+      "provider": "kis",
+      "exchange_code": "AMS"
+    }
+  ]
+}
