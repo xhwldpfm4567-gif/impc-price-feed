@@ -1,11 +1,11 @@
 {
   "schema_version": "0.1",
-  "generated_at_kst": "2026-07-03T11:24:27+09:00",
+  "generated_at_kst": "2026-07-03T11:35:55+09:00",
   "source": "kis",
   "summary": {
     "total": 4,
-    "ok": 2,
-    "error": 2
+    "ok": 4,
+    "error": 0
   },
   "prices": [
     {
@@ -13,9 +13,9 @@
       "kis_symbol": "316140",
       "market": "KR",
       "name": "우리금융지주",
-      "price": 30950,
+      "price": 30900,
       "currency": "KRW",
-      "asof_kst": "2026-07-03T11:24:26+09:00",
+      "asof_kst": "2026-07-03T11:35:52+09:00",
       "status": "ok",
       "error": null,
       "provider": "kis",
@@ -27,21 +27,23 @@
       "kis_symbol": "086790",
       "market": "KR",
       "name": "하나금융지주",
-      "price": null,
+      "price": 125900,
       "currency": "KRW",
-      "asof_kst": "2026-07-03T11:24:26+09:00",
-      "status": "error",
-      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapivts.koreainvestment.com:29443/uapi/domestic-stock/v1/quotations/inquire-price?FID_COND_MRKT_DIV_CODE=J&FID_INPUT_ISCD=086790",
-      "provider": "kis"
+      "asof_kst": "2026-07-03T11:35:53+09:00",
+      "status": "ok",
+      "error": null,
+      "provider": "kis",
+      "raw_msg_cd": "MCA00000",
+      "raw_msg1": "정상처리 되었습니다."
     },
     {
       "symbol": "005385",
       "kis_symbol": "005385",
       "market": "KR",
       "name": "현대차우",
-      "price": 214500,
+      "price": 213500,
       "currency": "KRW",
-      "asof_kst": "2026-07-03T11:24:27+09:00",
+      "asof_kst": "2026-07-03T11:35:54+09:00",
       "status": "ok",
       "error": null,
       "provider": "kis",
@@ -53,13 +55,15 @@
       "kis_symbol": "SOXL",
       "market": "US",
       "name": "Direxion Daily Semiconductor Bull 3X Shares",
-      "price": null,
+      "price": 181.47,
       "currency": "USD",
-      "asof_kst": "2026-07-03T11:24:27+09:00",
-      "status": "error",
-      "error": "http_error: 500 Server Error: Internal Server Error for url: https://openapivts.koreainvestment.com:29443/uapi/overseas-price/v1/quotations/price?AUTH=&EXCD=AMS&SYMB=SOXL",
+      "asof_kst": "2026-07-03T11:35:55+09:00",
+      "status": "ok",
+      "error": null,
       "provider": "kis",
-      "exchange_code": "AMS"
+      "exchange_code": "AMS",
+      "raw_msg_cd": "MCA00000",
+      "raw_msg1": "정상처리 되었습니다."
     }
   ]
 }
